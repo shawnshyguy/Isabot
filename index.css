@@ -44,6 +44,17 @@ body {
   line-height: 1.42857143;
   color: #fff;
 }
-img {
-    padding:5px;
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 256px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 256px;
 }
