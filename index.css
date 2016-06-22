@@ -58,3 +58,20 @@ ul.img-list li {
   position: relative;
   width: 256px;
 }
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 256px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 256px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
